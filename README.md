@@ -13,7 +13,7 @@ as "std" WordPress queries.
 
 #Installation Notes
 
-1. Add code within `functions.php` to the `functions.php` file in the standard WordPress Twenty Twelve theme
+1. Add code within `functions.php` to the `functions.php` file in the standard WordPress Twenty Twelve theme. The twentytwelve_entry_meta() function simply replaces the original version. The remaining code is new and can simply be appended to the end of the `functions.php` file
 2. Add `archive-movie.php` and `content-movie.php` to the root Twenty Twelve folder
 3. Activate Twenty Twelve theme
 
