@@ -85,7 +85,7 @@ function my_create_custom_post_types() {
 		array( 'the_type' => 'movie',
 			'single' => 'Movie',
 			'plural' => 'Movies',
-			'rewrite' => 'movie', )
+			'rewrite' => 'movie')
 	);
 
 	foreach ( $types as $type ) {
